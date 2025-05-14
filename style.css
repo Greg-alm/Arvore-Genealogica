@@ -10,4 +10,28 @@ body{
 }
 strong{
     color: var(--dourado-segundario);
+
+}
+
+.conteiner{
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.principal{
+
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    
+}
+
+.container_botao{
+    background-color: var(--dourado-segundario);
+border-radius: 5px;
+padding: 1em;
+color: var(--branco-principal);
+display: block;
 }
